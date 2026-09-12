@@ -1,0 +1,8 @@
+# Core dependencies for the Olist ETL pipeline
+# Versions below are minimums verified to work; pin to your exact
+# environment with `pip freeze > requirements.txt` if you want a stricter lock.
+
+pandas>=2.0
+kagglehub>=0.3
+pyarrow>=14.0        # needed for fact.to_parquet(...)
+jupyter>=1.0         # to run the notebook itself
