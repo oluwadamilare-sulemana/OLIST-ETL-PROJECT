@@ -1,6 +1,6 @@
 # Olist E-Commerce ETL Pipeline
 
-A guided, from-scratch ETL (Extract, Transform, Load) pipeline built on the [Olist Brazilian E-Commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), built as a learning project in Python and pandas.
+A guided, from-scratch ETL (Extract, Transform, Load) pipeline built on the [Olist Brazilian E-Commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), built as project in Python and pandas.
 
 The pipeline pulls 9 relational CSV tables live from Kaggle, cleans and investigates each one individually, aggregates the one-to-many tables (`payments`, `reviews`) down to one row per order, and joins everything into a single analysis-ready **fact table at the order-item grain** — one row per item purchased.
 
